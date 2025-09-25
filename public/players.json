@@ -1,0 +1,102 @@
+[
+  {
+    "image": "https://i.ibb.co.com/1YbNpFmm/download.jpg",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "playing_role": "All-Rounder",
+    "rating": 94,
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Slow Left-arm Orthodox",
+    "price": "150000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": 88,
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "100000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "playing_role": "Wicketkeeper-Batsman",
+    "rating": 86,
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "N/A",
+    "price": "95000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "David Miller",
+    "country": "South Africa",
+    "playing_role": "Batsman",
+    "rating": 90,
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "120000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "playing_role": "Bowler",
+    "rating": 96,
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Legbreak Googly",
+    "price": "180000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 89,
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Left-arm Fast-Medium",
+    "price": "110000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "Kieron Pollard",
+    "country": "West Indies",
+    "playing_role": "All-Rounder",
+    "rating": 91,
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "140000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "David Warner",
+    "country": "Australia",
+    "playing_role": "Batsman",
+    "rating": 93,
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Right-arm Legbreak",
+    "price": "175000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "playing_role": "All-Rounder",
+    "rating": 85,
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "90000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/zVfWYwVq/download-1.jpg",
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "playing_role": "All-Rounder",
+    "rating": 95,
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Fast",
+    "price": "200000 USD"
+  }
+]
