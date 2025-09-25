@@ -98,5 +98,25 @@
     "batting_style": "Right-hand Bat",
     "bowling_style": "Right-arm Fast",
     "price": "200000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/1YbNpFmm/download.jpg",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 89,
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Left-arm Fast-Medium",
+    "price": "110000 USD"
+  },
+  {
+    "image": "https://i.ibb.co.com/1YbNpFmm/download.jpg",
+    "name": "Soumya Sarkar",
+    "country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": 85,
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "80000 USD"
   }
 ]
