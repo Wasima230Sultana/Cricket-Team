@@ -1,28 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
-import navIng from './assets/logo.png'
-import dollarIng from './assets/dollar.png'
+import Navbar from './Components/Navbar/Navbar'
+import AvailablePlayers from './Components/AvailablePlayers/AvailablePlayers'
+import SelectedPlayers from './Components/SelectedPlayers/SelectedPlayers'
+import { Suspense } from 'react'
+
+const fetchPlayers = async()=>{
+  const res = await fetch("/players.json")
+  return res.json()
+}
+
 
 function App() {
   
-
+const playersPromise = fetchPlayers();
   return (
     <>
-      <div class="navbar max-w-[1200px] mx-auto">
-  <div class="flex-1">
-    <a class="btn btn-ghost text-xl">
-      <img className='w-[60px] h-[60px]' src={navIng} alt="" />
-    </a>
-  </div>
-  <div class="flex items-center ">
-    <span className='mr-1'>0</span>
-    <span className='mr-1'>Coin</span>
-    <img src={dollarIng} alt="" />
-  </div>
-</div>
-      
+    
+<Navbar></Navbar>
+<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+  <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+</Suspense>
+{/* <SelectedPlayers></SelectedPlayers> */}
+
+
     </>
   )
 }
