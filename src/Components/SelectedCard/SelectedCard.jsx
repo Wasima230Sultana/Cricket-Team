@@ -1,6 +1,9 @@
 import React from 'react';
 
-const SelectedCard = ({player}) => {
+const SelectedCard = ({player, removePlayer }) => {
+    const handleRemove = () => {
+        removePlayer(player)
+    }
     return (
          <div className='border-1 border-gray-400 flex justify-between items-center mt-5 p-2 rounded-xl'>
                 <div className='flex items-center'>
@@ -10,7 +13,7 @@ const SelectedCard = ({player}) => {
                         <p className='text-xs'>{player.playing_role}</p>
                     </div>
                 </div>
-                <div>
+                <div onClick={handleRemove}>
                     <img src="https://i.ibb.co.com/rKzs9JMs/Frame.png" alt="" />
                 </div>
             </div>
