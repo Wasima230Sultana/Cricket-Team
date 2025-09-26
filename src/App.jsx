@@ -26,10 +26,12 @@ function App() {
     
 <Navbar availableBalance={availableBalance}></Navbar>
 <div className=' max-w-[1200px] mx-auto flex justify-between items-center'>
-  <h1 className='font-bold text-2xl'>Available Players</h1>
+  <h1 className='font-bold text-2xl'>{
+    toggle===true?"Available Players":`Selected Players (${purchasePlayers.length}/6)`
+    }</h1>
   <div>
     <button onClick={()=>setToggle(true)} className={`py-3 px-5 border-1 border-gray-400 rounded-l-2xl border-r-0 ${toggle===true?"bg-[#E7FE29]":""}  font-bold`}>Available</button>
-    <button onClick={()=>setToggle(false)} className={`px-5 py-3 border-1 border-gray-400 rounded-r-2xl border-l-0 font-bold ${toggle===false?"bg-[#E7FE29]":""}`}>selected <span>(0)</span></button>
+    <button onClick={()=>setToggle(false)} className={`px-5 py-3 border-1 border-gray-400 rounded-r-2xl border-l-0 font-bold ${toggle===false?"bg-[#E7FE29]":""}`}>selected <span>({purchasePlayers.length})</span></button>
   </div>
 
 </div>
