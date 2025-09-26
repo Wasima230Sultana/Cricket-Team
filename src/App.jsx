@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import AvailablePlayers from './Components/AvailablePlayers/AvailablePlayers'
 import SelectedPlayers from './Components/SelectedPlayers/SelectedPlayers'
 import { Suspense, useState } from 'react'
+import { ToastContainer } from 'react-toastify';
 
 
 const fetchPlayers = async()=>{
@@ -48,7 +49,7 @@ function App() {
 }
 
 
-
+<ToastContainer/>
 
     </>
   )
